@@ -15,12 +15,13 @@ html {
     position: sticky;
     top: 0;
     z-index: 1000;
-    background-color: #0B1120;
+    background: linear-gradient(135deg, #030712, #0F172A, #1E3A5F);
     color: #F9FAFB;
-    padding: 0 4%;
+    padding: 0 2%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 65px;
 }
 
 .navlinks{
@@ -39,7 +40,11 @@ html {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 24px;
+}
 
+.logo-a{
+    text-decoration: none;
+    color: #f3f4f7;
 }
 
 #home{
@@ -53,21 +58,21 @@ html {
 
 .profile{
     object-fit: cover;
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     border-radius: 50%;
     border: #d1d1d1 4px solid;
 }
 
 .lmbutton{
     text-decoration: none;
-    background-color: #fcfcfe;
+    background: linear-gradient(135deg, #1E3A8A, #172554);
     border: none;
     padding: 10px 20px; 
     display: inline-block;
     cursor: pointer;
     font-weight: bold;
-    color: #0B1120;
+    color: #f3f4f7;
     border-radius: 15px;
 }
 
@@ -95,3 +100,28 @@ html {
     text-align: center;
 }
 
+#skills {
+    padding: 70px 5%;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.skill-card {
+    background: linear-gradient(135deg, #374151, #1F2937);
+    border: 1px solid #4B5563;
+    border-radius: 12px;
+    padding: 20px;
+    width: 200px;
+    color: #F9FAFB;
+    margin-left: 80px;
+}
+
+.h2skills{
+    text-align: center;
+    margin-top: -25px;
+    margin-bottom: 50px;
+}
