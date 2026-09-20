@@ -6,7 +6,15 @@ body {
     min-height: 100vh;
 }
 
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+
 .topbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     background-color: #0B1120;
     color: #F9FAFB;
     padding: 0 4%;
@@ -34,11 +42,13 @@ body {
 
 }
 
-.home{
+#home{
     justify-content: space-between;
     align-items: center;
     padding: 80px 8%;
     display: flex;
+    margin-bottom: 12%;
+    scroll-margin-top: 100%;
 }
 
 .profile{
@@ -53,10 +63,35 @@ body {
     text-decoration: none;
     background-color: #fcfcfe;
     border: none;
-    padding: 10px 20px;
+    padding: 10px 20px; 
     display: inline-block;
     cursor: pointer;
     font-weight: bold;
     color: #0B1120;
     border-radius: 15px;
 }
+
+.aboutcontent {
+    background: linear-gradient(135deg, #1F2937, #374151);
+    color: #F9FAFB;
+    padding: 30px 5%;
+}
+
+#about h2 {
+    margin-bottom: 30px;
+}
+
+#about h3 {
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+#about p {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.mid{
+    text-align: center;
+}
+
