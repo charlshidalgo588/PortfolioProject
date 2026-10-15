@@ -339,7 +339,7 @@ html {
 }
 
 
-/* TABLET: screens up to 900px */
+/* TABLET: screens up to 900px - ACT 8*/
 @media screen and (max-width: 900px) {
 
     /* Allow the navigation to wrap */
@@ -512,4 +512,18 @@ html {
     .form-group textarea {
         font-size: 16px;
     }
+}
+
+/* Part of ACT 9 */
+.footer {
+    text-align: center;
+    padding: 8px;
+    background: #111827;
+    color: #D1D5DB;
+    margin-top: auto;
+}
+
+.footer p {
+    margin: 2px;
+    font-size: 11px;
 }
