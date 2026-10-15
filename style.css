@@ -206,3 +206,47 @@ html {
 .project-button:hover {
     background: #2563EB;
 }
+
+/* education and experience - ACT 5*/
+#experience {
+    padding: 70px 5%;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    border-radius: 12px;
+    border: 1px solid #4B5563;
+}
+
+.experience-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: linear-gradient(135deg, #1F2937, #374151);
+    color: #F9FAFB;
+}
+
+.experience-table th,
+.experience-table td {
+    padding: 18px;
+    text-align: left;
+    border-bottom: 1px solid #4B5563;
+}
+
+.experience-table th {
+    background: linear-gradient(135deg, #1E3A8A, #172554);
+    color: #F9FAFB;
+    font-weight: bold;
+}
+
+.experience-table tbody tr:nth-child(even) {
+    background: #374151;
+}
+
+.experience-table tbody tr:hover {
+    background: #475569;
+}
+
+.experience-table tbody tr:last-child td {
+    border-bottom: none;
+}
