@@ -24,6 +24,10 @@ html {
     height: 65px;
 }
 
+.navlinks a:hover{
+    color: #06369c;
+}
+
 .navlinks{
     gap: 10px;
     display: flex;
